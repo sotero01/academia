@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Medidas Musculares</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Personal Thays Avelino</h1>
+        <h2>Avaliação Fisíca</h2>
+        <form id="measureForm">
+            <label for="studentName">Nome do Aluno:</label>
+            <input type="text" id="studentName" required>
+            <div class="input-bics">
+                <div class="inputcorp">
+                    <label for="biceps">Braço direito (cm):</label>
+                    <input type="number" id="biceps" required>
+                </div>
+                <div class="inputcorp">
+                    <label for="biceps e">Braço esquerdo(cm)</label>
+                    <input type="number" id="bicepse" required>
+                </div>
+            </div>
+
+            <div class="input-ante">
+                <div class="inputcorp">
+                    <label for="forearm">Antebraço direito(cm):</label>
+                    <input type="number" id="forearm" required>
+                </div>
+                <div class="inputcorp">
+                    <label for="forearme">Antebraço esquerdo(cm)</label>
+                    <input type="number" id="forearme" required>
+                </div>
+            </div>
+            <div class="input-peit">
+                <div class="inputcorp">
+                    <label for="chest">Peito (cm):</label>
+                    <input type="number" id="chest" required>
+                </div>
+                <div class="inputcorp">
+                    <label for="waist">Cintura (cm):</label>
+                    <input type="number" id="waist" required>
+                </div>
+            </div>
+            <div class="input-abdo">
+                <div class="inputcorp">
+                    <label for="abdomen">Abdômen (cm):</label>
+                    <input type="number" id="abdomen" required>
+                </div>
+            </div>
+            <div class="input-side">
+                <div class="inputcorp">
+
+                    <label for="right thigh">Coxa Direita (cm)</label>
+                    <input type="number" id="thigh" required>
+
+                </div>
+                <div class="inputcorp">
+
+                    <label for="left thigh">Coxa Esquerda (cm)</label>
+                    <input type="number" id="left" required>
+                </div>
+            </div>
+            <div class="input-cal">
+                <div class="inputcorp">
+
+                    <label for="calf">Panturrilha Direita (cm)</label>
+                    <input type="number" id="calf" required>
+                </div>
+                <div class="inputcorp">
+
+                    <label for="calfe">Panturrilha Esquerda (cm)</label>
+                    <input type="number" id="calfe" required>
+                </div>
+            </div>
+            <div class="input-alt">
+                <div class="inputcorp">
+                    <label for="height">altura (cm)</label>
+                    <input type="number" id="height" required>
+                </div>
+                <div class="inputcorp">
+                    <label for="weight">peso (kg)</label>
+                    <input type="number" id="weight" required>
+                </div>
+            </div>
+            <label for="hips">Quadril (cm):</label>
+            <input type="number" id="hips" required>
+            <button type="button" onclick="submitMeasurements()">Registrar Medidas</button>
+        </form>
+
+        <h2>Histórico de Medidas</h2>
+        <div id="measurementHistory"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

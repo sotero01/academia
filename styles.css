@@ -1,0 +1,92 @@
+body {
+    font-family: Arial 12pt;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(29, 200, 223);
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+     width: 150px;
+}
+
+label {
+    margin-top: 10px;
+    width: 100%;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    background-color: rgb(187, 14, 106);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #45a049;
+    
+}
+h1 { 
+text-align: center;
+font-style: italic;
+gap: 7px;
+color: rgb(173, 41, 131)
+}
+
+.inputcorp{
+    width: auto;
+    min-width: 180px;
+}
+
+.input-side{
+    display: flex;
+    gap: 4px;
+}
+.input-bics{
+    display: flex;
+    gap: 4px;
+}
+.input-ante{
+    display: flex;
+    gap: 4px;
+    width: auto;
+    min-width: 200px;
+}
+.input-cal{
+    display: flex;
+    gap: 4px;
+}
+.input-peit {
+    display: flex;
+    gap: 4px;
+}
+.input-abdo {
+    display: flex;
+    gap: 4px;
+}
+#measurementHistory{
+    display: flex;
+}
+.input-alt{
+    display: flex;
+    gap: 4px;
+}
+
